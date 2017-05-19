@@ -1,0 +1,520 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row">
+    <div class="large-12 columns">
+      <div class="topnav">
+      <a href="index.html"><h1>Pattern Library</h1></a>
+      </div>
+
+      <div class="topnav" id="thetopnav">
+         <a href="#nav">Navigation bar</a> 
+         <a href="#header">Header element</a> 
+         <a href="#button">Button </a> 
+         <a href="#jumbotron">Jumbotron</a> 
+         <a href="#footer">Footer</a> 
+         <a href="#grid">grid system</a> 
+         <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a> 
+    </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="search">
+            <div class="search-box">
+            <p>This website is about to making a pattern library consisting of 8 components.</p>
+						<p>The code is allowed to copy and pasted.</p>
+						<p>The components is covered: </p>
+							<li>Navigation bar</li>
+							<li>Header element</li>
+							<li>Button</li>
+							<li>Jumbotron</li>
+							<li>Footer</li>
+							<li>grid system</li>
+							<br />
+          </div>
+          <hr>
+        <div id="nav">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Navigation bar</h2>
+                   <div class="row">
+                    <div class="large-12 columns">
+                      <div class="callout">
+                        <p>Inline style navigation example </p>
+                          <div class="topnav">
+                               <a href="#1">Navigation 1</a> 
+                               <a href="#2">Navigation 2 </a> 
+                               <a href="#3">Navigation 3 </a> 
+                               <a href="#4">Navigation 4 </a> 
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="large-6 medium-6 columns">
+                      <div class="callout">
+                        <u>HTML </u>
+<xmp><div class="topnav">
+    <a href="#1">Navigation 1 </a> 
+    <a href="#2">Navigation 2 </a> 
+    <a href="#3">Navigation 3 </a> 
+    <a href="#4">Navigation 4 </a> 
+</div></xmp>
+                      </div>
+                    </div>
+                    <div class="large-6 medium-6 columns">
+                      <div class="callout">
+                        <u>CSS </u>
+                        <xmp>
+.topnav{
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.topnav a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</xmp>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Header element</h2>
+                      <div class="row">
+                  <div class="large-12 columns">
+                        <div class="callout">
+                      <h1>Heading</h1>
+                      <h3>Sub-heading</h3>
+                      <h5>Sub-text for heading</h5>
+                      <p>Body text</p>
+                        <div class="row">
+                            <div class="large-6 medium-6 columns">
+                              <label>Search box</label>
+                              <input type="text" placeholder="keyword" />
+                            </div>
+                          <div class="large-6 medium-6 columns">
+                          <label>Select box</label>
+                          <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <u>HTML </u>
+                  <xmp><div class="callout">
+   <h1>Heading</h1>
+   <h3>Sub-heading</h3>
+   <h5>Sub-text for heading</h5>
+   <p>Body text</p>
+<div class="row">
+<div class="large-6 medium-6 columns">
+   <label>Search box</label>
+   <input type="text" placeholder="keyword" />
+</div>
+<div class="large-6 medium-6 columns">
+   <label>Select box</label>
+<select>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+</select>
+</div>
+</div>
+</div>
+                  </xmp>
+                </div>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <u>CSS </u>
+                  <xmp>.callout {
+  position: center;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(10, 10, 10, 0.25);
+  border-radius: 0;
+  color: #0a0a0a;
+  background-color: #ffffff;
+  text-align: left;
+  }
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+h3 {
+  font-size: 1.1875rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+h5 {
+  font-size: 1.0625rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+                  </xmp>
+                </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div id="button">
+          <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Button</h2>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Sizing</h3>
+                          <a class="button tiny" href="#">Tiny button</a>
+                          <a class="button small" href="#">Small button</a>
+                          <a class="button" href="#">Normal button</a>
+                          <a class="button large" href="#">Large button</a>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                         <xmp> <a class="button tiny" href="#">Tiny button</a>
+ <a class="button small" href="#">Small button</a>
+ <a class="button" href="#">Normal button</a>
+ <a class="button large" href="#">Large button</a>
+</xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp>.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 0;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe; }
+.button.tiny {
+    font-size: 0.6rem; }
+.button.small {
+    font-size: 0.75rem; }
+.button.large {
+    font-size: 1.25rem; }  
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Coloring</h3>
+                          <a class="button primary" href="#">Primary</a>
+                          <a class="button secondary" href="#">Secondary</a>
+                          <a class="button success" href="#">Success</a>
+                          <a class="button alert" href="#">Alert</a>
+                          <a class="button warning" href="#">Warning</a>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                          <xmp><a class="button primary" href="#">Primary</a>
+<a class="button secondary" href="#">Secondary</a>
+<a class="button success" href="#">Success</a>
+<a class="button alert" href="#">Alert</a>
+<a class="button warning" href="#">Warning</a></xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp>  .button.primary {
+    background-color: #1779ba;
+    color: #fefefe; }
+  .button.secondary {
+    background-color: #767676;
+    color: #fefefe; }
+  .button.success {
+    background-color: #3adb76;
+    color: #0a0a0a; }
+  .button.warning {
+    background-color: #ffae00;
+    color: #0a0a0a; }
+  .button.alert {
+    background-color: #cc4b37;
+    color: #fefefe; }
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Disabled button</h3>
+                          <li><a class="button primary" href="#" >Primary</a></li>
+                          <li><a class="button secondary" href="#" disabled>Disabled button</a></li>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                          <xmp> <a class="button secondary" href="#" disabled>Disabled button</a>
+                          </xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp> 
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Radio button</h3>
+                          <form> <input type="radio" name="gender"> Male <br />
+                            <input type="radio" name="gender"> Female<br />
+                            <input type="radio" name="gender"> Other 
+                          </form>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                          <xmp><form>
+  <input type="radio" name="gender"> Male <br />
+  <input type="radio" name="gender"> Female <br />
+  <input type="radio" name="gender"> Other 
+</form>
+                          </xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp> 
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Checkbox button</h3>
+                          <form> 
+                          <input type="checkbox" name="vehicle" > I have a bike <br /> 
+                          <input type="checkbox" name="vehicle" checked> I have a car <br /> 
+                          <input type="submit" value="Submit">
+                          </form>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                          <xmp><form> 
+  <input type="checkbox" name="vehicle" > I have a bike <br /> 
+  <input type="checkbox" name="vehicle" checked> I have a car <br /> 
+  <input type="submit" value="Submit">
+</form>
+                          </xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp> 
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                          <h3>Hollow Style</h3>
+                          <button class="hollow button" href="#">Primary</button><br />
+                          <button class="hollow button secondary" href="#">Secondary</button><br />
+                          <button class="hollow button warning" href="#">Warning</button><br />
+                          <button class="hollow button" href="#" disabled>Disabled</button>                          
+                      </div>  
+                    </div>
+                    <div class="row">
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>HTML </u>
+                          <xmp><button class="hollow button" href="#">Primary</button><br />
+<button class="hollow button secondary" href="#">Secondary</button><br />
+<button class="hollow button warning" href="#">Warning</button><br />
+<button class="hollow button" href="#" disabled>Disabled</button> 
+                          </xmp>
+                        </div>
+                      </div>
+                      <div class="large-6 medium-6 columns">
+                        <div class="callout">
+                          <u>CSS </u>
+                          <xmp>  .button.hollow {
+border: 1px solid #1779ba;
+color: #1779ba; }
+   .button.hollow.secondary {
+border: 1px solid #767676;
+color: #767676; }
+   .button.hollow.warning {
+border: 1px solid #ffae00;
+color: #ffae00; }
+                          </xmp>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="jumbotron">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Jumbotron</h2>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <div class="callout">
+                            <div class="jumbotron">
+                              <h1>Bootstrap Tutorial</h1>      
+                              <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+                            </div>
+                            <p>This is some text.</p>      
+                            <p>This is another text.</p>      
+                        </div>
+                      </div>
+                    </div>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>HTML </h4>
+                </div>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>CSS </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div id="footer">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Footer</h2>
+                </div>
+              </div>  
+            </div>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>HTML </h4>
+                </div>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>CSS </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div id="grid">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout">
+                   <h2>Grid system</h2>
+                </div>
+              </div>  
+            </div>
+            <div class="row">
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>HTML </h4>
+                </div>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="callout">
+                  <h4>CSS </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+    <script src="assets/js/app.js"></script>
+  <script>
+function myFunction() {
+    var x = document.getElementById("thetopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+  </body>
+</html>
